@@ -1,0 +1,99 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(50,50,50);
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    display: flex;
+}
+
+.text {
+    margin: 0 10px;
+}
+
+.contact img {
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+.contact h4 {
+    text-align: center;
+
+}
+
+.about h2 {
+    text-decoration: underline;
+}
+
+.skills h3 {
+    text-align: left;
+    text-decoration: underline;
+    
+}
+
+.second h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+    color: white;
+}
+
+.img-text-wrapper .subtitle a {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle a {
+    color: white;
+    font-weight: bold;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
